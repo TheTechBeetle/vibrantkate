@@ -1,12 +1,8 @@
+# Lightweight webserver
 FROM nginx:alpine
 
-# Remove default nginx static files
-RUN rm -rf /usr/share/nginx/html/*
-
-# Copy your site into nginx's served directory
+# Copies the static resources for hosting
 COPY docs/ /usr/share/nginx/html/
 
-# Expose port 80 (optional, for clarity)
+# Documents the port that is opened within the container
 EXPOSE 80
-
-# Nginx runs automatically via the base image's CMD

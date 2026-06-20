@@ -1,7 +1,6 @@
 var navopen = false
 function navtog() {
-    if (window.location.pathname === "vibrantkate/docs/index.html") {
-        console.log("index")
+    if (window.location.pathname === "/") {
         if (window.innerWidth > 600) {
             var rainbar = document.getElementById("rainbarA")
         } else {
@@ -9,7 +8,6 @@ function navtog() {
         }
     } else {
         var rainbar = document.getElementById("rainbar")
-        console.log(window.location.pathname)
     }
     const pages = [
         "index.html",

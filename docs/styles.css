@@ -20,3 +20,26 @@ body {
     margin: 5px;
     height: 200px;
 }
+@media (max-width: 800px) and (min-width: 600px) {
+    .Indbod {
+        text-align: right;
+    }
+}
+@media (min-width: 800px) {
+    .Indbod  {
+        text-align: center;
+    }
+    .vibimg {
+        margin-left: 100px;
+    }
+}
+@media (max-width: 600px) and (min-width: 360px) {
+    .Indbod {
+        text-align: right;
+    }
+}
+@media (max-width: 360px) {
+    .vibimg {
+        margin-left: 10px;
+    }
+}

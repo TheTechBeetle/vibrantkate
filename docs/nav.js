@@ -1,7 +1,11 @@
 var navopen = false
 function navtog() {
+    if (window.innerWidth > 600) {
+        var rainbar = document.getElementById("rainbarA")
+    } else {
+        var rainbar = document.getElementById("rainbarB")
+    }
 
-    var rainbar = document.getElementById("rainbar")
     const pages = [
         "index.html",
         "laughteryoga.html",
@@ -14,7 +18,7 @@ function navtog() {
     const pagenames = [
         "Home",
         "Laughter yoga",
-        "Inka dot and email sign up",
+        "Inka Dot and email sign up",
         "About me and support me",
         "Treative writing",
         "Shop",

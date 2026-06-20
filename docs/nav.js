@@ -1,11 +1,16 @@
 var navopen = false
 function navtog() {
-    if (window.innerWidth > 600) {
-        var rainbar = document.getElementById("rainbarA")
+    if (window.location.pathname === "vibrantkate/docs/index.html") {
+        console.log("index")
+        if (window.innerWidth > 600) {
+            var rainbar = document.getElementById("rainbarA")
+        } else {
+           var rainbar = document.getElementById("rainbarB")
+        }
     } else {
-        var rainbar = document.getElementById("rainbarB")
+        var rainbar = document.getElementById("rainbar")
+        console.log(window.location.pathname)
     }
-
     const pages = [
         "index.html",
         "laughteryoga.html",

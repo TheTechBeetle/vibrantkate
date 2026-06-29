@@ -4,7 +4,7 @@ function navtog() {
         if (window.innerWidth > 600) {
             var rainbar = document.getElementById("rainbarA")
         } else {
-           var rainbar = document.getElementById("rainbarB")
+            var rainbar = document.getElementById("rainbarB")
         }
     } else {
         var rainbar = document.getElementById("rainbar")
@@ -33,7 +33,7 @@ function navtog() {
     } else {
         navopen = true
         var nav = document.createElement("ul")
-        nav.style = "margin: 0; border:3px solid #0b0ed6; border-radius: 10px; width: fit-content; padding-right: 10px;"
+        nav.style = "border:3px solid #0b0ed6; border-radius: 10px; width: fit-content; padding-right: 10px;"
         nav.id = "nav"
         for (let i = 0; i < pages.length; i++) {
             var item = document.createElement("li")

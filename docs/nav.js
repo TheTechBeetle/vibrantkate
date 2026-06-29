@@ -1,6 +1,6 @@
 var navopen = false
-function navtog() {
-    if (window.location.pathname === "/") {
+function navtog(home = false) {
+    if (home) {
         if (window.innerWidth > 600) {
             var rainbar = document.getElementById("rainbarA")
         } else {

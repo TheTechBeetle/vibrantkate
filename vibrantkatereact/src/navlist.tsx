@@ -3,7 +3,7 @@ import { Link } from "react-router";
 function Navlist() {
     return (
         <>
-        <ul className="activimg">
+        <ul className="activimg" style={{marginTop:100}}>
             <li>
                 <Link to="/"><h3>Home</h3></Link>
             </li>

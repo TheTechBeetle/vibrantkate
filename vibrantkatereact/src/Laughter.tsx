@@ -1,5 +1,71 @@
+import Laughterplant from "./images/LaughterPlantWeb.jpg"
+
 function Laughter() {
-    return <h1>Laughter</h1>
+    return(
+        <>
+        <div className="contentwrapper">
+            <h1 style={{fontSize:40}}>Laughter Yoga</h1>
+        <img src={Laughterplant} alt="Laughterplant" width="200" height="250"/>
+        <article>
+            <h1>What is Laughter Yoga?</h1>
+            <p>It feels great to laugh!</p>
+            <p>It's relaxing, connecting and memorable.</p>
+            <p>We don't need a shared sense of humour - just the sounds of laughter and a little suggested silliness!
+            </p>
+        </article>
+        <article>
+            <h2 className="seg">A few helpful insights:</h2>
+            <ul>
+                <li>
+                    <p>Breathing fully in a guffaw is what makes it yogic, not conventional poses.</p>
+                </li>
+                <li>
+                    <p>Our biology doesn't differentiate between real and pretend, so if you make laughter sounds with
+                        gumption,
+                        it's as good as a genuine laugh (and often leads to it!).</p>
+                </li>
+                <li>
+                    <p>Studies equated ten minutes of belly laughter with ten minutes on a rowing machine. I know which
+                        I
+                        prefer, ha! Grab some water to stay hydrated and marvel at the potential stomach-toning,
+                        endorphin-boosting, sleep-enhancing properties of a good laugh.</p>
+                </li>
+                <li>
+                    <p>Blood pressure during laughter rises briefly, then drops considerably after a session.</p>
+                </li>
+                <li>
+                    <p>If you like scientific studies, there is a lot of corroborating research into the health benefits
+                        of
+                        laughter, crammed into my fiendish wordsearch which you can request.</p>
+                </li>
+                <li>
+                    <p>Whether you favour facts or intuition, laughter feels awesome and I'm excited to share it with
+                        you!
+                    </p>
+                </li>
+            </ul>
+        </article>
+        <h2 className="seg">How you can join in</h2>
+        <ul>
+            <li>
+                <p>Wellness/team building days. I have helped cheer up conferences in the past. Let's bring some zing to
+                    these events!</p>
+            </li>
+            <li>
+                <p>One of my aspirations is to facilitate laughter at a wedding - either at the start of a reception to
+                    relax and connect the guests, or perhaps during wedding photos for some brilliant smiles and
+                    silliness.
+                    Will that be your celebration? I like inclusivity and believe that 'love is love' - what's important
+                    to
+                    me is the vibe.</p>
+            </li>
+        </ul>
+        <p>If you are going for wholesome, colourful, creative, homemade, joyful and informal, pop me a message and
+            let's
+            see how I can enhance your day.</p>
+        </div>
+        </>
+    )
 }
 
 export default Laughter;

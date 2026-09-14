@@ -10,6 +10,7 @@ import Banner from "./Banner";
 function Home() {
     return(
         <>
+        <div style={{textAlign:"center"}}>
             <Vibcastle/>
             <Banner/>
             <ul className="activitys">
@@ -20,6 +21,7 @@ function Home() {
                 <Activity name="Shop" to="https://vibrantkate.sumupstore.com/" img={Shop}/>
                 <Activity name="Social media and podcasts/radio" to="media" img={Social}/>
             </ul>
+        </div>
         </>
     )
 }

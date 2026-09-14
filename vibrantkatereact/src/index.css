@@ -9,10 +9,13 @@
   top: 0;
   left: 0;
   width: 100%;
+  background-color: rgb(244, 0, 0);
+  z-index: 100;
 }
 .navbutton {
     border:3px transparent;
     border-radius: 10px;
+    padding-bottom: 30px;
 }
 
 @font-face {
@@ -34,7 +37,6 @@
 body {
     font-family: 'cooper black';
     color: #0b0ed6;
-    text-align: center;
 }
 
 .activity {
@@ -79,7 +81,7 @@ body {
     margin-bottom: 30px;
     border:3px solid #0b0ed6;
     border-radius: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .activimg {
@@ -103,10 +105,19 @@ body {
 }
 
 .banner {
-    height: 100px;
     background: linear-gradient(150deg,
             rgb(174, 175, 255) 0%,
             rgb(255, 255, 255) 200%);
     border: 5px solid #0b0ed6;
     border-radius: 20px;
+}
+
+.contentwrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+a:-webkit-any-link {
+    color: #600bd6;
 }

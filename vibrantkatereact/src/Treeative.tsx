@@ -1,5 +1,57 @@
+import tree from "./images/treeativetree.jpg"
+
 function Treeative() {
-    return <h1>Treeative</h1>
+    return(
+        <>
+        <div className="contentwrapper">
+            <h1>Treeative Writing</h1>
+        <img src={tree} alt="treeativewriting" height="300"
+            className="activimg"/>
+        <p>A fun, occasional series of tree-themed writing workshops. If you</p>
+        <p>have an outdoor space within reach of Gloucester,</p>
+        <p>a population who'd enjoy writing some whimsy</p>
+        <p>and you'd like me to facilitate sessions, please contact me.</p>
+        <p>The workshops are fine online too.</p>
+        <p>There are four sessions:</p>
+        <ul>
+            <li>
+                <p>Write a Tree Meditation</p>
+            </li>
+            <li>
+                <p>Whimsical Trees</p>
+            </li>
+            <li>
+                <p>Treehouses</p>
+            </li>
+            <li>
+                <p>Fantasy Campfires</p>
+            </li>
+        </ul>
+        <h2 className="seg">A few important principles:</h2>
+        <ul>
+            <li>
+                <p>Trees are the starting point but you can branch out - all my</p>
+            </li>
+            <li>
+                <p>writing workshops encourage improvisation and seeing where the</p>
+                <p>story takes you.</p>
+            </li>
+            <li>
+                <p>The tree meditation is personal to you; in all the other </p>
+                <p>workshops we share our work so we get a mini storytelling circle.</p>
+            </li>
+            <li>
+                <p>This means the vibe is supportive and suitable for writers at all</p>
+                <p>levels of confidence and ability. I love to hear </p>
+                <p>how everyone has responded to the same suggestion. </p>
+            </li>
+            <li>
+                <p>Writing exercises are short, encouraging spontaneity.</p>
+            </li>
+        </ul>
+        </div>
+        </>
+    )
 }
 
 export default Treeative;

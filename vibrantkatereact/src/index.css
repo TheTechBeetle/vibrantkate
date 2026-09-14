@@ -1,0 +1,112 @@
+.topnav {
+  height: 48px;
+  border:3px transparent;
+  border-radius: 5px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbutton {
+    border:3px transparent;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: 'Cooper Black';
+    src: url('CooperBlack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.rainbow {
+    background: linear-gradient(180deg,
+            rgba(255, 0, 0, 1) 0%,
+            rgba(241, 255, 0, 1) 36%,
+            rgba(0, 142, 255, 1) 71%,
+            rgba(251, 0, 255, 1) 91%);
+    padding-bottom: 5px;
+}
+
+body {
+    font-family: 'cooper black';
+    color: #0b0ed6;
+    text-align: center;
+}
+
+.activity {
+    width: 200px;
+    border: 3px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    height: 200px;
+}
+
+@media (min-width: 800px) {
+    .vibimg {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 360px) {
+    .vibimg {
+        margin-left: 10px;
+    }
+}
+
+.seg {
+    border-bottom: 1px solid rgba(153, 153, 153, 0.61);
+    padding-bottom: 20px;
+}
+
+.news {
+    text-align: left;
+    padding: 10px;
+    color: #5d0994;
+}
+
+.dot {
+    text-align: left;
+    padding: 10px;
+}
+
+.vibcastle {
+    margin-bottom: 30px;
+    border:3px solid #0b0ed6;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.activimg {
+    border:3px solid #0b0ed6;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.activitys {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottombar {
+    text-align: "center";
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.banner {
+    height: 100px;
+    background: linear-gradient(150deg,
+            rgb(174, 175, 255) 0%,
+            rgb(255, 255, 255) 200%);
+    border: 5px solid #0b0ed6;
+    border-radius: 20px;
+}

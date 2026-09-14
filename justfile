@@ -1,3 +1,6 @@
+run:
+    npm --prefix vibrantkatereact run dev
+
 # Build a local docker image for hosting the site
 docker-build:
     docker build -t vibrant-kate .

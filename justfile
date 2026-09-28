@@ -12,3 +12,11 @@ docker-start: docker-build
 # Run a web server, but mount the code directly so you can update and refresh without restarting.
 docker-dev:
     docker run -p 8080:80 -v $(pwd)/docs:/usr/share/nginx/html nginx:alpine
+
+ci:
+    npm ci --prefix vibrantkatereact
+    
+build-site: 
+    npm run build --prefix vibrantkatereact
+
+build-ci: ci build-site

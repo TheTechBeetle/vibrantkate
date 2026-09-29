@@ -1,19 +1,27 @@
 .topnav {
-  height: 48px;
-  border:3px transparent;
-  border-radius: 5px;
-  text-align: left;
-  margin-bottom: 10px;
-  color: black;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgb(244, 0, 0);
-  z-index: 100;
+    height: 48px;
+    border: 3px transparent;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(244, 0, 0);
+    z-index: 100;
 }
+
+.toplist {
+    margin-top: 100px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
 .navbutton {
-    border:3px transparent;
+    border: 3px transparent;
     border-radius: 10px;
     padding-bottom: 30px;
 }
@@ -79,13 +87,13 @@ body {
 
 .vibcastle {
     margin-bottom: 30px;
-    border:3px solid #0b0ed6;
+    border: 3px solid #0b0ed6;
     border-radius: 10px;
     margin-top: 50px;
 }
 
 .activimg {
-    border:3px solid #0b0ed6;
+    border: 3px solid #0b0ed6;
     border-radius: 10px;
     width: fit-content;
 }

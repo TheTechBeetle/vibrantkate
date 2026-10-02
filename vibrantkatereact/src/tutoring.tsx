@@ -1,4 +1,4 @@
-function tutoring() {
+function Tutoring() {
     return (
         <>
             <div className="contentwrapper">
@@ -8,4 +8,4 @@ function tutoring() {
     )
 }
 
-export default tutoring;
+export default Tutoring;

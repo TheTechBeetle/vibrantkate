@@ -23,6 +23,9 @@ function Navlist() {
                     <Link to="media">Media & podcasts</Link>
                 </li>
                 <li>
+                    <Link to="tutoring">Tutoring</Link>
+                </li>
+                <li>
                     <Link to="https://vibrantkate.sumupstore.com/" target="_null">Shop</Link>
                 </li>
             </ul>

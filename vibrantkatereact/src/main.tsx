@@ -9,6 +9,7 @@ import Inkadot from './Inkadot.tsx'
 import About from './About.tsx'
 import Treeative from './Treeative.tsx'
 import Media from './Media.tsx'
+import Tutoring from './tutoring.tsx'
 
 const router = createBrowserRouter([
   {
@@ -34,14 +35,17 @@ const router = createBrowserRouter([
       {
         path: "/Treeative",
         Component: Treeative
-      }
-      ,
+      },
       {
         path: "/Media",
         Component: Media
+      },
+      {
+        path: "/tutoring",
+        Component: Tutoring
       }
     ]
-}
+  }
 ]);
 
 createRoot(document.getElementById('root')!).render(

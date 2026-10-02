@@ -6,7 +6,7 @@ import Me from "./images/vibrantkate.jpg"
 import tree from "./images/TreeativeWritingOverview.jpg"
 import Shop from "./images/Vibrashop.jpg"
 import Social from "./images/Katemedia.jpg"
-import tutoring from "./images/tutoring.jpg"
+import Tutoring from "./images/vibrantkate.jpg"
 import Banner from "./Banner";
 function Home() {
     return (
@@ -21,7 +21,7 @@ function Home() {
                     <Activity name="Treeative writing & tree hugging" to="treeative" img={tree} />
                     <Activity name="Shop" to="https://vibrantkate.sumupstore.com/" img={Shop} />
                     <Activity name="Social media and podcasts/radio" to="media" img={Social} />
-                    <Activity name="" to="tutoring" img={tutoring} />
+                    <Activity name="Tutoring" to="tutoring" img={Tutoring} />
                 </ul>
             </div>
         </>

@@ -28,7 +28,7 @@
 
 @font-face {
     font-family: 'Cooper Black';
-    src: url('CooperBlack.woff') format('woff');
+    src: url('./Cooper_Black.woff') format('woff1');
     font-weight: normal;
     font-style: normal;
 }
@@ -54,7 +54,7 @@ body {
     text-align: center;
     padding: 20px;
     margin: 5px;
-    height: 200px;
+    height: 225px;
 }
 
 @media (min-width: 800px) {

@@ -6,7 +6,7 @@ import Me from "./images/vibrantkate.jpg"
 import tree from "./images/TreeativeWritingOverview.jpg"
 import Shop from "./images/Vibrashop.jpg"
 import Social from "./images/Katemedia.jpg"
-import Tutoring from "./images/WhatDrivesMyTutoring2.jpg"
+import Tutoring from "./images/WhatDrivesMyTutoring 2.jpg"
 import Banner from "./Banner";
 function Home() {
     return (

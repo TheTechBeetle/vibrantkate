@@ -12,9 +12,9 @@ function Inkadot() {
             <p>she works towards her Pet Care badge.</p>
             <br/>
             <p>Traditionally grammar is dry and rule-based,</p>
-            <p>which is often off-putting. The zine adds a story</p>
+            <p>which is often off-putting. The zine adds a story that</p>
             <p>personifies punctuation and features cute</p>
-            <p>illustrations. A zine is a quirky artistic booklet</p>
+            <p>illustrations. A zine is a quirky artistic booklet-</p>
             <p>the name is an abbreviation of 'magazine'.</p>
             <br/>
             <p>Each page is correctly punctuated so it is an</p>
@@ -36,7 +36,8 @@ function Inkadot() {
                 <a href="https://vibrantkate.kit.com/0eb0b50e46" target="_blank">
                     Sign up for my email list
                 </a>
-                to receive the story electronically
+                <br />
+                to receive the story electronically.
             </h2>
             <a href="https://vibrantkate.sumupstore.com" target="_blank">
                 <h2>Now available in printed form!</h2>

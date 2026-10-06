@@ -16,25 +16,24 @@ function Tutoring() {
                     </ul>
                 </h2>
 
-                <h2 className="seg">
-                    This summarises my attitude!
-                    <br /> My kindness and adaptability suits neurodivergent students and I prefer working with them.
-                    <br /> I have experience with autism, ADHD, and dyslexia.
-                    <br /> My priority is to hear and develop the student's confidence in their voice more than the formalities of a syllabus.
-                    <br /> I invent whimsical creative writing exercises, often adapted to the student's interests. That way they are telling me about things that they enjoy and it feels expansive.
+                <h2> This summarises my attitude! </h2>
+                <p className="seg">
+                    <br /> My kindness and adaptability suits neurodivergent students and I prefer working with them. <br />
+                    <br /> I have experience with autism, ADHD, and dyslexia.<br />
+                    <br /> My priority is to hear and develop the student's confidence in their voice more than the formalities of a syllabus.<br />
+                    <br /> I invent whimsical creative writing exercises, often adapted to the student's interests. That way they are telling me about things that they enjoy and it feels expansive.<br />
                     <br /> I am happy to savour a small side quest and I set a lighthearted tone.
-                </h2>
-
+                </p>
                 <h2>
                     I offer a four week Writing Confidence course for those age 11 - 18.
                     <br />We do four fortnightly sessions of 90 minutes each to cover:
-                    <ul>
-                        <li>Warming up the Imagination</li>
-                        <li>Punctuation</li>
-                        <li>Editing and brevity</li>
-                        <li>Student's choice coaching - applying these skills to a specific piece of writing they want to create/improve</li>
-                    </ul>
                 </h2>
+                <ul>
+                    <li>Warming up the Imagination</li>
+                    <li>Punctuation</li>
+                    <li>Editing and brevity</li>
+                    <li>Student's choice coaching - applying these skills to a specific piece of writing they want to create/improve</li>
+                </ul>
             </div>
         </>
     )

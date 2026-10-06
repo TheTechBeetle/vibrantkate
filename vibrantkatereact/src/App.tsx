@@ -5,8 +5,8 @@ import Bottombar from "./bottombar";
 function App() {
   return (
     <>
-     <TopNav/>
-     <Outlet />
+      <TopNav/>
+      <Outlet />
       <Bottombar/>
     </>
   )

@@ -113,8 +113,8 @@ body {
 
 .banner {
     background: linear-gradient(150deg,
-            rgb(174, 175, 255) 0%,
-            rgb(255, 255, 255) 200%);
+            rgb(207, 207, 255) 0%,
+            rgb(255, 255, 255) 150%);
     border: 5px solid #0b0ed6;
     border-radius: 20px;
 }
@@ -126,5 +126,5 @@ body {
 }
 
 a:-webkit-any-link {
-    color: #600bd6;
+    color: #7700ff;
 }

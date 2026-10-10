@@ -1,5 +1,8 @@
-run:
+run: install
     npm --prefix vibrantkatereact run dev
+
+install:
+    npm --prefix vibrantkatereact install
 
 # Build a local docker image for hosting the site
 docker-build:
